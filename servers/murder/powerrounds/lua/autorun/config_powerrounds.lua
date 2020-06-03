@@ -131,7 +131,7 @@ PowerRounds.AddRound({
             Ply:Give("weapon_mu_magnum")
         end
 
-    end
+    end,
     ServerStart = function()
         RunConsoleCommand("mu_murderer_fogtime", "10")
     end,
