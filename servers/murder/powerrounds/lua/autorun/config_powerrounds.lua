@@ -132,7 +132,7 @@ PowerRounds.AddRound({
         end
 
     end
-ServerStart = function()
+    ServerStart = function()
         RunConsoleCommand("mu_murderer_fogtime", "10")
     end,
 ServerEnd = function()
