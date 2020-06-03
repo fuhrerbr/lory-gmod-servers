@@ -126,7 +126,7 @@ PowerRounds.AddRound({
     PlayersStart = function(Ply)
         if Ply:IsMurderer() then
             Ply:SetRenderMode(RENDERMODE_TRANSALPHA)
-            Ply:SetColor( Color(0, 0, 0, 0 ) )
+            Ply:SetColor(color_transparent)
         else
             Ply:Give("weapon_mu_magnum")
         end
